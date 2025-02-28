@@ -53,7 +53,7 @@ export default function Pattern2() {
 
   return (
     <>
-      <UpdatesTable title="Terminal B: Direct to GraphQL pattern"
+      <UpdatesTable title="Terminal B : Modèle GraphQL direct"
         updates={flights}
         isConnected={isConnected} />
     </>

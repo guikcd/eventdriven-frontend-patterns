@@ -42,7 +42,7 @@ export default function Pattern3() {
 
   return (
     <>
-      <UpdatesTable title="Terminal C: Two-way WebSocket pattern"
+      <UpdatesTable title="Terminal C : Modèle bi-directionnel WebSocket"
                     updates={ flights }
                     isConnected={ isConnected } />
     </>

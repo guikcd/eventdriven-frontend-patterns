@@ -30,10 +30,10 @@ export default function LoadDataControls() {
         <div className="w-full align-middle text-slate-300 text-bolded">
             <span className="flex justify-end space-x-2">
               <button onClick={ handleLoadData } disabled={ loadDataClicked } className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                Load Data
+                Charger Données
               </button>
               <button onClick={ handleReset } disabled={ resetSimClicked } className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                Reset
+                Réinitilisation
               </button>
             </span>
         </div>

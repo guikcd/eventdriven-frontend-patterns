@@ -58,7 +58,7 @@ export default function Pattern4() {
 
   return (
     <>
-      <UpdatesTable title="Terminal D: MQTT pattern"
+      <UpdatesTable title="Terminal D : Modèle MQTT"
                     updates={ flights }
                     isConnected={ isConnected } />
     </>

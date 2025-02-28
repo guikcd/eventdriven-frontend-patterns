@@ -84,20 +84,20 @@ export default function StartFlightSim() {
           <div className="p-4 grid gap-2 grid-cols-4 align-middle">
             
             <span className="pt-2 text-xl">
-              <b>My flight:</b> { flightCode }
+              <b>Mon vol :</b> { flightCode }
             </span>
 
             <span className="pt-2 text-xl">
-              <b>Status:</b> { flightStatus }
+              <b>Statut :</b> { flightStatus }
             </span>
 
             <span className="pt-2 text-xl font-semibold">
-              <b>My seat:</b> { seat }
+              <b>Mon siège :</b> { seat }
             </span>
             
             <span className="flex justify-end space-x-2">
               <button onClick={ handleStartSimulation } disabled={ clicked } className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                Start Simulation
+                Démarrer Simulation
               </button>
             </span>
 

@@ -54,7 +54,7 @@ export default function UpdatesTable({ title, updates = [], isConnected = false,
             <h2 className="grow text-lg font-semibold mt-4 pb-4 text-center text-slate-50">{ title }</h2>
             {pollConfig ?
               <label htmlFor={ pollingerIntervalId }>
-                <b className="text-sm text-slate-50">{"Polling Interval: "}</b> 
+                <b className="text-sm text-slate-50">{"Interval récupération : "}</b> 
                 <select id={ pollingerIntervalId }
                         value={ selectedPollingInterval }
                         onChange={ e => pollingIntervalCallback(e.target.value) }
@@ -74,13 +74,13 @@ export default function UpdatesTable({ title, updates = [], isConnected = false,
             <table className="w-full table-auto text-center">
               <thead className="sticky top-0">
                 <tr className="bg-blue-950 font-semibold text-sm text-slate-50">
-                  <th className="py-2">Dest</th>
-                  <th className="py-2">Airline</th>
-                  <th className="py-2">Flight #</th>
-                  <th className="py-2">Term</th>
-                  <th className="py-2">Gate</th>
-                  <th className="py-3">Status</th>
-                  <th className="py-3">Event age</th>
+                  <th className="py-2">Destination</th>
+                  <th className="py-2">Compagnie</th>
+                  <th className="py-2">Vol #</th>
+                  <th className="py-2">Terminal</th>
+                  <th className="py-2">Porte</th>
+                  <th className="py-3">Statut</th>
+                  <th className="py-3">Age évènement</th>
                 </tr>
               </thead>
               <tbody className="align-text-top">
