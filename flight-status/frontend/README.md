@@ -29,6 +29,13 @@ To start the frontend:
 cd frontend
 ```
 
+Generate the configuration:
+```bash
+$ node src/generate_config.cjs
+src/appconfig.js has been generated successfully
+```
+
+Or you can edit it from scratch.
 Rename `frontend/src/appconfig.js.sample` to `frontend/src/appconfig.js`.
 
 Open `frontend/src/appconfig.js` in your editor of choice. Update the configuration using outputs from the shared and pattern stacks. Details on these configuration values and where to find those values is available in the pattern `README` documents.

@@ -47,8 +47,8 @@ async function generateConfig() {
         const configContent = `const config = ${JSON.stringify(config, null, 2)};\nexport default config;`;
 
         // Write to file
-        fs.writeFileSync('appconfig.js', configContent);
-        console.log('appconfig.js has been generated successfully');
+        fs.writeFileSync('src/appconfig.js', configContent);
+        console.log('src/appconfig.js has been generated successfully');
 
     } catch (error) {
         console.error('Error generating config:', error);
