@@ -15,8 +15,8 @@ export default function UpdatesTable({ title, updates = [], isConnected = false,
   const renderAirlineImage = (airlineCode) => {
     if (airlineCode === 'SVS') {
       return <img src={svs} alt="SVS" className="h-6 inline-block" />;
-    } else if (airlineCode === 'RIV') {
-      return <img src={riv} alt="RIV" className="h-6 inline-block" />;
+    } else if (airlineCode === 'SUM') {
+      return <img src={riv} alt="SUM" className="h-6 inline-block" />;
     } else {
       return <img src={api} alt="API" className="h-6 inline-block" />;
     }
