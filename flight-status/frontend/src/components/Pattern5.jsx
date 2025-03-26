@@ -38,7 +38,7 @@ export default function Pattern5() {
 
   return (
     <>
-      <UpdatesTable title="Terminal Y : Modèle pas d'évènements GraphQL"
+      <UpdatesTable title="Terminal Y : Modèle évènements sans GraphQL"
         updates={flights}
         isConnected={isConnected} />
     </>

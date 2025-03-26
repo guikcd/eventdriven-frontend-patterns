@@ -70,7 +70,7 @@ export default function Polling() {
 
   return (
     <>
-      <UpdatesTable title="Terminal P : Récupération régulière"
+      <UpdatesTable title="Terminal P : Polling"
                     updates={ flights }
                     isConnected={ isPolling }
                     pollConfig={ true } 
